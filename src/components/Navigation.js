@@ -4,15 +4,15 @@ import {Link} from 'react-router-dom';
 const Navigation = () => {
   return (
     <div>
-      <div className="App">
         <h1>React Router Mini</h1>
-        <div>
+      <div className="Nav">
+        <div className="Nav-link">
           <Link to="/" >Home</Link>
         </div>
-        <div>
+        <div className="Nav-link">
         <Link to="/about" >About</Link>
         </div>
-        <div>
+        <div className="Nav-link">
         <Link to="/contact" >Contact</Link>
         </div>
       </div>
