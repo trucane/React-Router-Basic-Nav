@@ -1,9 +1,32 @@
-.App {
-  text-align: center;
+
+.container{
+  background:rgb(184, 200, 200);
+  text-align:center;
+}
+
+h1{
+  padding:20px 0;
+}
+
+
+
+.Nav {
+  display:flex;
+  background:red;
+  justify-content: center;
 }
 
 .Nav-link {
   padding: 2rem;
+}
+
+.Nav-link a {
+  text-decoration: none;
+  color:white;
+}
+
+.Nav-link a:hover {
+  color:skyblue;
 }
 
 .nav-item {
